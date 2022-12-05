@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+}
+
+.background {
+    background: black;
+    background-blend-mode: darken;
+    background-size: cover;
+}
+p.headerLabel {
+    text-align: center;
+    font-size: 16px;
+    color:white;
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+}
+.data-content{
+    font-size: 16px;
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+}
+.btnAction{
+    text-align: left;
+    float:left;
+    margin: 20px 0px 20px 0px;
+}
+.btnOpt{
+    text-align: center;
+    float:center;
+    margin: 5px 0px 5px 0px;
+}
+
+/* The alert message box */
+.alert {
+    padding: 20px;
+    background-color: #2196F3; /* Red */
+    color: white;
+    margin-bottom: 15px;
+  }
+  
+  /* The close button */
+  .closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  /* When moving the mouse over the close button */
+  .closebtn:hover {
+    color: black;
+  }
+  .float-left{
+    float: left;
+    text-align: left;
+    margin: 20px 0px 20px 0px;
+  }
